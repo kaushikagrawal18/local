@@ -1,5 +1,6 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
+
 /* Padding below the footer and lighter body text */
 
 body {
@@ -7,7 +8,6 @@ body {
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
-
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -20,6 +20,7 @@ body {
   margin: 0 auto; */
   margin-bottom: 4rem;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
@@ -30,7 +31,8 @@ body {
 .carousel-item {
   height: 50%;
   width: 200%;
- }
+}
+
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -48,12 +50,14 @@ body {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .marketing h2 {
   font-weight: 400;
 }
+
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 
 .featurette-divider {
@@ -64,39 +68,44 @@ body {
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
+
 /* Equal Heights for OwlCarousel 2 */
 .owl-carousel .owl-stage {
   display: -webkit-box;
   display: flex;
 }
+
 .owl-carousel .owl-item {
   display: -webkit-box;
   display: flex;
   -webkit-box-flex: 1;
-          flex: 1 0 auto;
+  flex: 1 0 auto;
 }
+
 .owl-carousel .thumbnail {
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-          flex-direction: column;
+  flex-direction: column;
   margin: 0 15px;
 }
+
 .owl-carousel .thumbnail .caption {
   display: -webkit-box;
   display: flex;
   -webkit-box-flex: 1;
-          flex: 1 0 auto;
+  flex: 1 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-          flex-direction: column;
+  flex-direction: column;
 }
+
 .owl-carousel .thumbnail .caption .flex-text {
   -webkit-box-flex: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
 /* Equal Heights for OwlCarousel 2 */
